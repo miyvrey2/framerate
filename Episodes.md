@@ -61,3 +61,9 @@
 4. Move existing feature tests to Jetstream folder
 5. LazilyRefreshDatabase in Pest to only migrate if you touch the database 
 
+Episode 6
+1. Create tests/Feature/Controllers/PostController/IndexTest.php
+2. TestCase withoutVite(); to prevent building assets
+3. Loop trough NavLink items (defined in AppLayout.vue) to check if they are visible
+4. Fill Posts/Index.vue to loop through the posts
+5. Build a container to fit all the posts in
