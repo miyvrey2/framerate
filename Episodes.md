@@ -48,3 +48,8 @@
        3. Resource controller
 4. Fill comment migration
 5. Add relations in the models 'User', 'Post' and 'Comment'
+
+# Episode 4
+1. Fill in Database/Factories/PostFactory
+2. Fill in Database/Factories/CommentFactory
+3. Fill in Database/Seeders/DatabaseSeeder
