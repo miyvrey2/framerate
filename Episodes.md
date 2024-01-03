@@ -53,3 +53,11 @@
 1. Fill in Database/Factories/PostFactory
 2. Fill in Database/Factories/CommentFactory
 3. Fill in Database/Seeders/DatabaseSeeder
+
+# Episode 5
+1. `pa test`
+2. Setup phpunit.xml for using MySQL database for testing
+3. `pa test -p` for parallel testing (creates more databases)
+4. Move existing feature tests to Jetstream folder
+5. LazilyRefreshDatabase in Pest to only migrate if you touch the database 
+
