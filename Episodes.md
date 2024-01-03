@@ -61,9 +61,16 @@
 4. Move existing feature tests to Jetstream folder
 5. LazilyRefreshDatabase in Pest to only migrate if you touch the database 
 
-Episode 6
+# Episode 6
 1. Create tests/Feature/Controllers/PostController/IndexTest.php
 2. TestCase withoutVite(); to prevent building assets
 3. Loop trough NavLink items (defined in AppLayout.vue) to check if they are visible
 4. Fill Posts/Index.vue to loop through the posts
 5. Build a container to fit all the posts in
+
+# Episode 7
+1. Create a temporary route for testing purposes of resources
+2. Apis can need 'Resources', such as 'UserResource
+   1. to tell which attributes should show
+   2. Not using 'hidden' or 'visible' within the model
+3. Wrap a Eloquent result in a Resource
