@@ -31,3 +31,20 @@
       8. `MAIL_FROM_NAME="${APP_NAME}"`
 5. register and verify email
 6. [TODO] change logo in components `ApplicationLogo.vue`, `ApplicationMark.vue` and `AuthenticationCardLogo.vue`
+
+# Episode 3
+1. Make Post resource `pa make:model`
+    1. Post
+    2. following
+       1. Factory
+       2. Migration
+       3. Resource controller
+2. Fill post migration
+3. Make Comment resource `pa make:model`
+   1. Comment
+   2. following
+       1. Factory
+       2. Migration
+       3. Resource controller
+4. Fill comment migration
+5. Add relations in the models 'User', 'Post' and 'Comment'
