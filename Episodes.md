@@ -98,3 +98,9 @@
 2. add a route for showing a single post
 3. add a Show.vue for showing a single post
 4. prettify the Show.vue
+
+# Episode 11
+1. link index page to show page
+   1. update our test to link the user to the post
+   2. Add user to the post resource
+   3. Add Link tag to the Post/Index.vue
