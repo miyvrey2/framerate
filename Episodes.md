@@ -74,3 +74,14 @@
    1. to tell which attributes should show
    2. Not using 'hidden' or 'visible' within the model
 3. Wrap a Eloquent result in a Resource
+
+# Episode 8
+1. Add Pagination.vue 
+   1. Create the component
+   2. Add Vue elements from https://tailwindui.com/components/application-ui/navigation/pagination
+   3. Change static values to the link values
+2. use "with" method for eager loading of user
+   1. This prevents the N+1 problem
+3. Within the appServiceProvider, set Model::preventLazyLoading(!app()->isProduction());
+   1. This prevents lazy loading in production
+   2. This will throw an exception if you try to lazy load in production
