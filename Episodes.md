@@ -85,3 +85,10 @@
 3. Within the appServiceProvider, set Model::preventLazyLoading(!app()->isProduction());
    1. This prevents lazy loading in production
    2. This will throw an exception if you try to lazy load in production
+
+# Episode 9
+1. Create a macro for testing resources and resource collections
+    1. check if the key exists in the resource
+    2. check if the value is the same in the resource
+    3. place the macro's in a new serviceprovider, TestServiceProvider
+2. update the postController@index with sorting on latest first, also sorted on id (for testing purposes)
