@@ -92,3 +92,9 @@
     2. check if the value is the same in the resource
     3. place the macro's in a new serviceprovider, TestServiceProvider
 2. update the postController@index with sorting on latest first, also sorted on id (for testing purposes)
+
+# Episode 10
+1. Write a ShowTest for a new method, show
+2. add a route for showing a single post
+3. add a Show.vue for showing a single post
+4. prettify the Show.vue
