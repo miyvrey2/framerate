@@ -130,3 +130,7 @@
    2. useForm is a function that returns a reactive object with a comment property
    3. addComment is a function that posts the comment to the backend
 2. Add a new Textarea.vue component
+
+# Episode 16
+1. Write a test  for preventing not logged-in users can comment
+2. Moves the route to a middleware group 'auth:sanctum'
