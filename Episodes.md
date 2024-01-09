@@ -114,3 +114,12 @@
 # Episode 13
 1. show method in PostController returned always logic, but wrapped in closure, so it will only bbe returned if used in the frontend
 2. in pagination.vue the 'only' attribute is used to the Links, so we prevent all unused meta data being loaded
+
+# Episode 14
+1. Post a comment (ttd)
+   1. create a new test (CommentStoreTest)
+   2. create a new route (post/{post}/comments)
+   3. create a new CommentController with a store method
+2. Validate a comment store request
+   1. assert invalid options and a validator
+3. Clean up of our code

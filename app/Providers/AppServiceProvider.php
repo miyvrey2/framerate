@@ -26,5 +26,8 @@ class AppServiceProvider extends ServiceProvider
 
         // Eager loading for all models
         Model::preventLazyLoading();
+
+        // Disable mass assignment protection
+//        Model::unguard();
     }
 }
