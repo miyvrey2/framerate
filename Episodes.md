@@ -104,3 +104,9 @@
    1. update our test to link the user to the post
    2. Add user to the post resource
    3. Add Link tag to the Post/Index.vue
+
+# Episode 12
+1. Add comments to each post (by seeder and controller)
+2. Add a test for the comments
+3. Add a Comment.vue component
+4. Extract formattedDate as function in date.js 
