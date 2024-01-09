@@ -109,4 +109,8 @@
 1. Add comments to each post (by seeder and controller)
 2. Add a test for the comments
 3. Add a Comment.vue component
-4. Extract formattedDate as function in date.js 
+4. Extract formattedDate as function in date.js
+
+# Episode 13
+1. show method in PostController returned always logic, but wrapped in closure, so it will only bbe returned if used in the frontend
+2. in pagination.vue the 'only' attribute is used to the Links, so we prevent all unused meta data being loaded
