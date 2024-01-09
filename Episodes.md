@@ -123,3 +123,10 @@
 2. Validate a comment store request
    1. assert invalid options and a validator
 3. Clean up of our code
+
+# Episode 15
+1. Adds a form, formInstance (useForm) and a save function (addComment) in Show.vue
+   1. form is basic html, with a v-if for not logged-in users and an submit prevent so the addComment save function can do that
+   2. useForm is a function that returns a reactive object with a comment property
+   3. addComment is a function that posts the comment to the backend
+2. Add a new Textarea.vue component
